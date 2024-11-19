@@ -1,10 +1,10 @@
 function findOdd(A) {
     //happy coding!
-    var unique = [...new Set(A)];
-    var fr=[];
+    let unique = [...new Set(A)];
+    let fr=[];
   
     for (let i=0;i<unique.length;i++){
-      var p=0;
+      let p=0;
       for (let j=0;j<A.length;j++){
         
         if (A[j]===unique[i]){
